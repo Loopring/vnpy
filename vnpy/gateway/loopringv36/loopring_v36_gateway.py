@@ -349,6 +349,7 @@ class LoopringRestApi(RestClient):
         self.publicKeyX = exported_secret["publicKeyX"]
         self.publicKeyY = exported_secret["publicKeyY"]
         self.exchange   = exported_secret['exchangeAddress']
+        self.key        = exported_secret['apiKey']
 
         self.next_eddsaKey = None
 
